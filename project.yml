@@ -1,0 +1,37 @@
+# XcodeGen spec — opsional. Jalankan: brew install xcodegen && xcodegen
+# Atau buat project manual di Xcode (lihat README).
+name: WebcamSettingStableV1
+options:
+  bundleIdPrefix: id.khincc
+  deploymentTarget:
+    macOS: "12.0"
+targets:
+  WebcamSettingStableV1:
+    type: application
+    platform: macOS
+    sources:
+      - WebcamSettingStableV1
+    info:
+      path: WebcamSettingStableV1/Resources/Info.plist
+      properties:
+        CFBundleDisplayName: Manual Webcam Stable v.1
+        CFBundleName: Manual Webcam Stable v.1
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        NSCameraUsageDescription: "Aplikasi butuh akses kamera untuk preview dan kontrol setelan webcam."
+        LSApplicationCategoryType: public.app-category.utilities
+        LSMinimumSystemVersion: "12.0"
+    entitlements:
+      path: WebcamSettingStableV1/Resources/WebcamSettingStableV1.entitlements
+      properties:
+        com.apple.security.app-sandbox: false   # true + device.usb kalau mau sandbox
+        com.apple.security.device.camera: true
+        com.apple.security.device.usb: true
+        com.apple.security.network.client: true # login lisensi
+    settings:
+      base:
+        SWIFT_VERSION: "5.9"
+        MACOSX_DEPLOYMENT_TARGET: "12.0"
+        ENABLE_HARDENED_RUNTIME: YES
+        CODE_SIGN_STYLE: Automatic
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon

@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		404E8432A9138762A0A9181C /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F904343241A9E16281509F69 /* AuthManager.swift */; };
+		687A4FBE5992640DD11216AB /* WebcamSettingStableV1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA74AA70FF41E648FA13984 /* WebcamSettingStableV1App.swift */; };
+		8367617F2729AF270862072D /* LoginAboutViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884C5D03C27550F1D7517A2F /* LoginAboutViews.swift */; };
+		AEE1A293FD556A6DAB2EBAE2 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45C874163146FF775B63779 /* Components.swift */; };
+		AFB36D8405E2188D05101813 /* PresetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6B1CFE9C39798292F33771 /* PresetManager.swift */; };
+		D0210FB2D3E144FF919A74BC /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88371BE8A0F167B2C0EA0F3A /* CameraManager.swift */; };
+		D2846071447D4F51D20CE361 /* UVCController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06BCCFBCB245CCC0E5B2F519 /* UVCController.swift */; };
+		DF3D824F1838902F4581BC5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35AA47CD265488557F19FFF /* Assets.xcassets */; };
+		FD1909F4EDFF251385625085 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70806EC7DC6A80972490A9CA /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06BCCFBCB245CCC0E5B2F519 /* UVCController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UVCController.swift; sourceTree = "<group>"; };
+		26598E5AE6213DB3A365E592 /* WebcamSettingStableV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebcamSettingStableV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		317F6154CD79CE0B3F4F5149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6F08FAC158B0EC3158FC3103 /* WebcamSettingStableV1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WebcamSettingStableV1.entitlements; sourceTree = "<group>"; };
+		70806EC7DC6A80972490A9CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7AA74AA70FF41E648FA13984 /* WebcamSettingStableV1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebcamSettingStableV1App.swift; sourceTree = "<group>"; };
+		88371BE8A0F167B2C0EA0F3A /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		884C5D03C27550F1D7517A2F /* LoginAboutViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAboutViews.swift; sourceTree = "<group>"; };
+		AC6B1CFE9C39798292F33771 /* PresetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetManager.swift; sourceTree = "<group>"; };
+		D35AA47CD265488557F19FFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D45C874163146FF775B63779 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		F904343241A9E16281509F69 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		02CE674ADA43916AA3B739DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26598E5AE6213DB3A365E592 /* WebcamSettingStableV1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1975F05002B16023B521E503 /* WebcamSettingStableV1 */ = {
+			isa = PBXGroup;
+			children = (
+				7AA74AA70FF41E648FA13984 /* WebcamSettingStableV1App.swift */,
+				4D917B0ACE0E88B8770CC390 /* Camera */,
+				A02AF6DBA795A30E1B075A7A /* Managers */,
+				517C5534C77D7FB56BBBC6ED /* Resources */,
+				BC34E4F99FA02EC35A625F0D /* Views */,
+			);
+			path = WebcamSettingStableV1;
+			sourceTree = "<group>";
+		};
+		4D917B0ACE0E88B8770CC390 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				88371BE8A0F167B2C0EA0F3A /* CameraManager.swift */,
+				06BCCFBCB245CCC0E5B2F519 /* UVCController.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		517C5534C77D7FB56BBBC6ED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D35AA47CD265488557F19FFF /* Assets.xcassets */,
+				317F6154CD79CE0B3F4F5149 /* Info.plist */,
+				6F08FAC158B0EC3158FC3103 /* WebcamSettingStableV1.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A02AF6DBA795A30E1B075A7A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F904343241A9E16281509F69 /* AuthManager.swift */,
+				AC6B1CFE9C39798292F33771 /* PresetManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		ADE4440AD4A73DF44AD83970 = {
+			isa = PBXGroup;
+			children = (
+				1975F05002B16023B521E503 /* WebcamSettingStableV1 */,
+				02CE674ADA43916AA3B739DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC34E4F99FA02EC35A625F0D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D45C874163146FF775B63779 /* Components.swift */,
+				70806EC7DC6A80972490A9CA /* ContentView.swift */,
+				884C5D03C27550F1D7517A2F /* LoginAboutViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8927E2CE5A4E08E05EDE285E /* WebcamSettingStableV1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900763ACC948ECDB811EE83E /* Build configuration list for PBXNativeTarget "WebcamSettingStableV1" */;
+			buildPhases = (
+				2278E267B1EA94E4D824328C /* Sources */,
+				3D724320703F54C7392B893D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebcamSettingStableV1;
+			packageProductDependencies = (
+			);
+			productName = WebcamSettingStableV1;
+			productReference = 26598E5AE6213DB3A365E592 /* WebcamSettingStableV1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01AB1C4245530434E72961AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					8927E2CE5A4E08E05EDE285E = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8B7DC1F7E2CD9244062A10B7 /* Build configuration list for PBXProject "WebcamSettingStableV1" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = ADE4440AD4A73DF44AD83970;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 02CE674ADA43916AA3B739DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8927E2CE5A4E08E05EDE285E /* WebcamSettingStableV1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D724320703F54C7392B893D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3D824F1838902F4581BC5E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2278E267B1EA94E4D824328C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404E8432A9138762A0A9181C /* AuthManager.swift in Sources */,
+				D0210FB2D3E144FF919A74BC /* CameraManager.swift in Sources */,
+				AEE1A293FD556A6DAB2EBAE2 /* Components.swift in Sources */,
+				FD1909F4EDFF251385625085 /* ContentView.swift in Sources */,
+				8367617F2729AF270862072D /* LoginAboutViews.swift in Sources */,
+				AFB36D8405E2188D05101813 /* PresetManager.swift in Sources */,
+				D2846071447D4F51D20CE361 /* UVCController.swift in Sources */,
+				687A4FBE5992640DD11216AB /* WebcamSettingStableV1App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03D799C4ED8529206E1F8212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WebcamSettingStableV1/Resources/WebcamSettingStableV1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = WebcamSettingStableV1/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.khincc.WebcamSettingStableV1;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		BFF3758E6B04CBD62F6F6DFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WebcamSettingStableV1/Resources/WebcamSettingStableV1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = WebcamSettingStableV1/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_BUNDLE_IDENTIFIER = id.khincc.WebcamSettingStableV1;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		D1D7CBB5256491E433D33C34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F0F40EAA3D28ECD7B4D35D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B7DC1F7E2CD9244062A10B7 /* Build configuration list for PBXProject "WebcamSettingStableV1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1D7CBB5256491E433D33C34 /* Debug */,
+				F0F40EAA3D28ECD7B4D35D13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		900763ACC948ECDB811EE83E /* Build configuration list for PBXNativeTarget "WebcamSettingStableV1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFF3758E6B04CBD62F6F6DFA /* Debug */,
+				03D799C4ED8529206E1F8212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01AB1C4245530434E72961AD /* Project object */;
+}
