@@ -87,6 +87,13 @@ final class CameraManager: NSObject, ObservableObject {
                 self.session.addInput(input)
                 self.currentInput = input
             }
+            // Batasi resolusi preview ke 720p (fallback .medium) supaya buffer frame tidak membengkak.
+            // Kontrol UVC tetap bekerja karena dikirim langsung ke hardware, bukan lewat session.
+            if self.session.canSetSessionPreset(.hd1280x720) {
+                self.session.sessionPreset = .hd1280x720
+            } else if self.session.canSetSessionPreset(.medium) {
+                self.session.sessionPreset = .medium
+            }
             self.session.commitConfiguration()
 
             self.uvc?.close()
